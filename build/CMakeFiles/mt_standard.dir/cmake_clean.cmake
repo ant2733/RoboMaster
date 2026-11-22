@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mt_standard.dir/link.d"
   "CMakeFiles/mt_standard.dir/src/mt_standard.cpp.o"
   "CMakeFiles/mt_standard.dir/src/mt_standard.cpp.o.d"
   "mt_standard"

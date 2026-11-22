@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/handeye_test.dir/link.d"
   "CMakeFiles/handeye_test.dir/tests/handeye_test.cpp.o"
   "CMakeFiles/handeye_test.dir/tests/handeye_test.cpp.o.d"
   "handeye_test"

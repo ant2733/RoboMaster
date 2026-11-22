@@ -8,16 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ant/Documents/RoboMaster/test/sp_vision_25/src/auto_buff_debug_mpc.cpp" "CMakeFiles/auto_buff_debug_mpc.dir/src/auto_buff_debug_mpc.cpp.o" "gcc" "CMakeFiles/auto_buff_debug_mpc.dir/src/auto_buff_debug_mpc.cpp.o.d"
-  "" "auto_buff_debug_mpc" "gcc" "CMakeFiles/auto_buff_debug_mpc.dir/link.d"
+  "/home/ubuntu/RoboMaster/sp_vision_25/src/auto_buff_debug_mpc.cpp" "CMakeFiles/auto_buff_debug_mpc.dir/src/auto_buff_debug_mpc.cpp.o" "gcc" "CMakeFiles/auto_buff_debug_mpc.dir/src/auto_buff_debug_mpc.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/ubuntu/RoboMaster/sp_vision_25/build/io/CMakeFiles/io.dir/DependInfo.cmake"
+  "/home/ubuntu/RoboMaster/sp_vision_25/build/io/serial/CMakeFiles/serial.dir/DependInfo.cmake"
+  "/home/ubuntu/RoboMaster/sp_vision_25/build/tasks/auto_aim/planner/tinympc/CMakeFiles/tinympcstatic.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

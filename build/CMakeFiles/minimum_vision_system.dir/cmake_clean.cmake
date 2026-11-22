@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/minimum_vision_system.dir/link.d"
   "CMakeFiles/minimum_vision_system.dir/tests/minimum_vision_system.cpp.o"
   "CMakeFiles/minimum_vision_system.dir/tests/minimum_vision_system.cpp.o.d"
   "minimum_vision_system"

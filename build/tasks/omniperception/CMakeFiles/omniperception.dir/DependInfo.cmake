@@ -8,16 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ant/Documents/RoboMaster/test/sp_vision_25/tasks/omniperception/decider.cpp" "tasks/omniperception/CMakeFiles/omniperception.dir/decider.cpp.o" "gcc" "tasks/omniperception/CMakeFiles/omniperception.dir/decider.cpp.o.d"
-  "/home/ant/Documents/RoboMaster/test/sp_vision_25/tasks/omniperception/perceptron.cpp" "tasks/omniperception/CMakeFiles/omniperception.dir/perceptron.cpp.o" "gcc" "tasks/omniperception/CMakeFiles/omniperception.dir/perceptron.cpp.o.d"
+  "/home/ubuntu/RoboMaster/sp_vision_25/tasks/omniperception/decider.cpp" "tasks/omniperception/CMakeFiles/omniperception.dir/decider.cpp.o" "gcc" "tasks/omniperception/CMakeFiles/omniperception.dir/decider.cpp.o.d"
+  "/home/ubuntu/RoboMaster/sp_vision_25/tasks/omniperception/perceptron.cpp" "tasks/omniperception/CMakeFiles/omniperception.dir/perceptron.cpp.o" "gcc" "tasks/omniperception/CMakeFiles/omniperception.dir/perceptron.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

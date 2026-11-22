@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fire_test.dir/link.d"
   "CMakeFiles/fire_test.dir/tests/fire_test.cpp.o"
   "CMakeFiles/fire_test.dir/tests/fire_test.cpp.o.d"
   "fire_test"

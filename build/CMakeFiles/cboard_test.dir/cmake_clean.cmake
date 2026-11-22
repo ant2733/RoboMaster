@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cboard_test.dir/link.d"
   "CMakeFiles/cboard_test.dir/tests/cboard_test.cpp.o"
   "CMakeFiles/cboard_test.dir/tests/cboard_test.cpp.o.d"
   "cboard_test"

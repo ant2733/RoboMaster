@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/capture.dir/link.d"
   "CMakeFiles/capture.dir/calibration/capture.cpp.o"
   "CMakeFiles/capture.dir/calibration/capture.cpp.o.d"
   "capture"

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/standard_mpc.dir/link.d"
   "CMakeFiles/standard_mpc.dir/src/standard_mpc.cpp.o"
   "CMakeFiles/standard_mpc.dir/src/standard_mpc.cpp.o.d"
   "standard_mpc"

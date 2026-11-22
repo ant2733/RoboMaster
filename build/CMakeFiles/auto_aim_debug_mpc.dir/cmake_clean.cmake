@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/auto_aim_debug_mpc.dir/link.d"
   "CMakeFiles/auto_aim_debug_mpc.dir/src/auto_aim_debug_mpc.cpp.o"
   "CMakeFiles/auto_aim_debug_mpc.dir/src/auto_aim_debug_mpc.cpp.o.d"
   "auto_aim_debug_mpc"

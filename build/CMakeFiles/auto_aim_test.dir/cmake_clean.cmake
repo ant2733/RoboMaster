@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/auto_aim_test.dir/link.d"
   "CMakeFiles/auto_aim_test.dir/tests/auto_aim_test.cpp.o"
   "CMakeFiles/auto_aim_test.dir/tests/auto_aim_test.cpp.o.d"
   "auto_aim_test"

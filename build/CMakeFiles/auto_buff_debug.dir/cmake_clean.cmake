@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/auto_buff_debug.dir/link.d"
   "CMakeFiles/auto_buff_debug.dir/src/auto_buff_debug.cpp.o"
   "CMakeFiles/auto_buff_debug.dir/src/auto_buff_debug.cpp.o.d"
   "auto_buff_debug"

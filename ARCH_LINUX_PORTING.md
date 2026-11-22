@@ -119,17 +119,19 @@ fatal error: Eigen/Dense: No such file or directory
 
 现在各目标通过 `Eigen3::Eigen` 获取正确的头文件目录。
 
-同时将 Eigen 5 已弃用的：
+同时将 Eigen 5 已弃用的 `bdcSvd` 运行时选项写法改为模板参数写法，并通过版本宏兼容 Eigen 3.x（Eigen 3.x 只支持运行时选项写法）：
 
 ```cpp
-X.bdcSvd(Eigen::ComputeThinU | Eigen::ComputeThinV)
+// Eigen 5 takes the SVD computation options as a template parameter, while
+// Eigen 3.x only accepts them as a runtime argument.
+#if EIGEN_MAJOR_VERSION >= 5
+    params = X.bdcSvd<Eigen::ComputeThinU | Eigen::ComputeThinV>().solve(Y);
+#else
+    params = X.bdcSvd(Eigen::ComputeThinU | Eigen::ComputeThinV).solve(Y);
+#endif
 ```
 
-修改为：
-
-```cpp
-X.bdcSvd<Eigen::ComputeThinU | Eigen::ComputeThinV>()
-```
+注：Eigen 5 虽然版本号是 5.x，但 `EIGEN_WORLD_VERSION` 仍保持为 3，`EIGEN_MAJOR_VERSION` 为 5，因此用 `EIGEN_MAJOR_VERSION >= 5` 判断即可同时兼容 Eigen 3.4（Ubuntu 22.04）和 Eigen 5（Arch）。
 
 ### 4.4 工业相机 SDK 和 libusb
 

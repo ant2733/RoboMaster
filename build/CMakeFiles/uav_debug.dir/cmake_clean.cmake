@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/uav_debug.dir/link.d"
   "CMakeFiles/uav_debug.dir/src/uav_debug.cpp.o"
   "CMakeFiles/uav_debug.dir/src/uav_debug.cpp.o.d"
   "uav_debug"

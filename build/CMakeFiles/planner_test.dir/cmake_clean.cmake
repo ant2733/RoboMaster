@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/planner_test.dir/link.d"
   "CMakeFiles/planner_test.dir/tests/planner_test.cpp.o"
   "CMakeFiles/planner_test.dir/tests/planner_test.cpp.o.d"
   "planner_test"

@@ -81,7 +81,13 @@ bool RansacSineFitter::fit_partial_model(
   }
 
   try {
+// Eigen 5 takes the SVD computation options as a template parameter, while
+// Eigen 3.x only accepts them as a runtime argument.
+#if EIGEN_MAJOR_VERSION >= 5
     params = X.bdcSvd<Eigen::ComputeThinU | Eigen::ComputeThinV>().solve(Y);
+#else
+    params = X.bdcSvd(Eigen::ComputeThinU | Eigen::ComputeThinV).solve(Y);
+#endif
     return true;
   } catch (...) {
     return false;

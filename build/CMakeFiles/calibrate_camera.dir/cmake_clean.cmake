@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/calibrate_camera.dir/link.d"
   "CMakeFiles/calibrate_camera.dir/calibration/calibrate_camera.cpp.o"
   "CMakeFiles/calibrate_camera.dir/calibration/calibrate_camera.cpp.o.d"
   "calibrate_camera"

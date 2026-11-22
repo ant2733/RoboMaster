@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/detector_video_test.dir/link.d"
   "CMakeFiles/detector_video_test.dir/tests/detector_video_test.cpp.o"
   "CMakeFiles/detector_video_test.dir/tests/detector_video_test.cpp.o.d"
   "detector_video_test"

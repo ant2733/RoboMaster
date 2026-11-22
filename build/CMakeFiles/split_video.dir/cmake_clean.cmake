@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/split_video.dir/link.d"
   "CMakeFiles/split_video.dir/calibration/split_video.cpp.o"
   "CMakeFiles/split_video.dir/calibration/split_video.cpp.o.d"
   "split_video"

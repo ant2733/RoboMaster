@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gimbal_response_test.dir/link.d"
   "CMakeFiles/gimbal_response_test.dir/tests/gimbal_response_test.cpp.o"
   "CMakeFiles/gimbal_response_test.dir/tests/gimbal_response_test.cpp.o.d"
   "gimbal_response_test"
