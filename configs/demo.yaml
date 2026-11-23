@@ -83,7 +83,8 @@ send_canid: 0xff
 can_interface: "can0"
 
 #####-----gimbal参数-----#####
-com_port: "/dev/gimbal"
+com_port: "/dev/ttyUSB0"
+baudrate: 115200
 
 #####-----planner-----#####
 fire_thresh: 0.003
